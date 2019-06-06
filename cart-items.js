@@ -1,22 +1,28 @@
 "use strict";
 let cartItems = [{
-        id: 0,
-        products: "sneakers",
+        id: 1,
+        product: "Sneakers",
         price: 200,
         quantity: 2
 
     },
     {
-        id: 1,
-        products: "gold chain",
-        price: 2000,
+        id: 2,
+        product: "Gold Chain",
+        price: 5000,
         quantity: 1
     },
     {
-        id: 2,
-        products: "sunglasses",
+        id: 3,
+        product: "Sunglasses",
         price: 150,
         quantity: 4
+    },
+    {
+        id: 4,
+        product: "Hat",
+        price: 40,
+        quantity: 3
     }
 ];
 

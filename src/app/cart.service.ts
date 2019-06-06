@@ -17,12 +17,12 @@ export class CartService {
     return this.http.post("/api/cartitems", newItem, { responseType: "json"});
   }
 
-  deleteItem(id) {
-    return this.http.delete(`/api/cartitems/${id}`, { responseType: "json"});
+  updateItem(newItem) {
+    return this.http.put(`/api/cartitems/${newItem.id}`, newItem, { responseType: "json"});
   }
 
-  updateItem(newItem, id) {
-    return this.http.put(`/api/cartitems/${id}`, newItem, { responseType: "json"});
+  deleteItem(id) {
+    return this.http.delete(`/api/cartitems/${id}`, { responseType: "json"});
   }
 }
 

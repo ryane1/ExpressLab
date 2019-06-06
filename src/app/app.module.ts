@@ -4,11 +4,13 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from "@angular/common/http";
 import { AppComponent } from './app.component';
 import { CartService } from './cart.service';
+// import { CartComponent } from './cart/cart.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    // CartComponent
   ],
   imports: [
     BrowserModule,
